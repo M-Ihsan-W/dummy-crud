@@ -20,7 +20,8 @@
   </style>
   
   <div class="container">
-  <h1>Tambah Blog</h1>
+  <h1>Dummy CRUD</h1>
+  <h3>Tambah Blog</h3>
   <br>
   @foreach ($data as $item)
   <p>{{ $item->nama }}</p>
